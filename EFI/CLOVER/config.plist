@@ -14,6 +14,8 @@
 			<dict>
 				<key>AddDTGP</key>
 				<true/>
+				<key>AddPNLF</key>
+				<true/>
 				<key>FixHPET</key>
 				<true/>
 				<key>FixIPIC</key>
@@ -427,8 +429,6 @@
 			<key>Inject</key>
 			<string>No</string>
 		</dict>
-		<key>IntelMaxValue</key>
-		<string>0x0710</string>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0)/Pci(0x02,0)</key>

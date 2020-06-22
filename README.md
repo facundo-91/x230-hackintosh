@@ -1,6 +1,10 @@
 # Thinkpad X230 Hackintosh
 
 ## Logs:
+### 22 June 2020 Update:
+- Updated config.plist and removed PNLF.aml for backlight control (Method 1 from WhateverGreen documentation).
+- Added IO80211Family.kext for Atheros AR5B95.
+- WhateverGreen.kext to 1.4.0
 ### 13 June 2020 Update:
 - Clover: r5119
 - Kexts and Drivers updated
@@ -12,7 +16,7 @@
 | RAM                 | 8GB Kingston 1600MHz DDR3L      |
 | Storage             | 500GB SSD Western Digital Blue  |
 | Bluetooth           | Broadcom BCM20702A0             |
-| WiFi                | TL-WN725N Nano USB Adapter      |
+| WiFi                | Atheros AR5B95      						|
 | BIOS                | 2.73                            |
 | EC									| 1.14                            |
 
@@ -43,7 +47,8 @@ My unit doesn't have it.
 Mac's doesn't have this kind of ports so you will have to use the MiniDP port with an HDMI/VGA adapter.
 
 ## Credits
-- [banhbaoxamlan](https://github.com/banhbaoxamlan): Using his repository to make mine.
-- [n4ru](https://github.com/n4ru/): For his software-based "jailbreak" to softmod custom bios images.
-- [acidanthera](https://github.com/acidanthera): For his Kexts: AppleALC, Lilu, Whatevergreen, etc.
-- [Clover](https://github.com/CloverHackyColor/CloverBootloader): Bootloader for macOS.
+- [Apple](https://www.apple.com/) for MacOS
+- [banhbaoxamlan](https://github.com/banhbaoxamlan) for his repository to make mine.
+- [n4ru](https://github.com/n4ru/) for [1vyrain](https://github.com/n4ru/1vyrain) to softmod custom bios images.
+- [acidanthera](https://github.com/acidanthera), [vit9696](https://github.com/vit9696) for his Kexts: AppleALC, Lilu, Whatevergreen, etc.
+- [Clover](https://github.com/CloverHackyColor/CloverBootloader) for Bootloader for macOS.
