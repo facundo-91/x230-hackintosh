@@ -1,6 +1,8 @@
 # Thinkpad X230 Hackintosh
 
 ## Logs:
+### 26 July 2020 Update:
+- Upgraded to 10.15.6 with no problems.
 ### 22 June 2020 Update:
 - Updated config.plist and removed PNLF.aml for backlight control (Method 1 from WhateverGreen documentation).
 - Added IO80211Family.kext for Atheros AR5B95.
